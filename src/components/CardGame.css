@@ -1,0 +1,72 @@
+.card-game {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0a6e21;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f8c300;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #ffdd33;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .game-table {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .hand {
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .card {
+    width: 100px;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f8c300;
+  }
